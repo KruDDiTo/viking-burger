@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<title>Inicio - Restaurante Proyecto Completo</title>
+
+		<meta charset="utf-8" />
+		<meta name="author" content="Antonio Araque" />
+		<meta name="description" content="Proyecto del curso HTML y CSS" />
+		<meta name="keywords" content="restaurante, madrid, hamburguesas" />	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex, nofollow">
+
+		<link rel="icon" href="./favicon.ico" />
+
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/gallery.css">
+	</head>
+
+	<body>
+		<header>
+			<div id="logo">
+				<a href="./index.html" title="Ir a la home">
+					<img class="logo" src="./img/logo.png" alt="Restaurante Viking Burger" />
+				</a>
+			
+				<h1>viking<br/>burger</h1>
+			</div>
+
+			<nav class="site-navigation">
+				<ul class="site-navigation-horizontal">
+					<li><a href="./index.html" title="Ir a la presentación">Inicio</a></li>
+					<li><a href="javascript:void(0);" title="Ir a la carta">Carta</a>
+						<ul class="burger-navigation">
+							<li><a href="./menu.html#starters" title="Ir a la carta de entrantes">Entrantes</a></li>
+							<li><a href="./menu.html#burgers" title="Ir a la carta de hamburguesas">Hamburguesas</a></li>
+							<li><a href="./menu.html#desserts" title="Ir a la carta de postres">Postres</a></li>
+						</ul>
+					</li>
+					<li><a href="./where.html" id="linkDirection" title="Ir a la dirección del restaurante">Dónde estamos</a></li>
+					<li><a href="./reservation.html" id="linkContact" title="Hacer una reserva con nosotros">Reservas</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="reservation">
+				<h2>Reserva una mesa</h2>
+
+				<form action="" name="Reserva una mesa" class="form-reservation">
+					
+					<div class="form-element-group">
+						<input type="text" name="Name" id="nameReservation" placeholder="Juan Perez" required />
+						<label for="nameReservation">Nombre</label>
+					</div>
+
+					<div class="form-element-group">
+						<input type="email" name="Email" id="emailReservation" placeholder="example@gmail.com" required />
+						<label for="emailReservation">Correo eléctronico</label>
+					</div>
+
+					<div class="form-element-group">
+						<input type="date" name="Day" id="dayReservation" placeholder="Selecciona el día" required />
+						<label for="dayReservation">Dia</label>
+					</div>
+
+					<div class="form-element-group">
+						<select type="date" name="Hour" id="hourReservation" placeholder="Selecciona la hora" required />
+							<option selected disabled hidden></option>
+							<option value="13-00">13:00 horas</option>
+							<option value="13-30">13:30 horas</option>
+							<option value="14-00">14:00 horas</option>
+							<option value="14-30">14:30 horas</option>
+							<option value="15-00">15:00 horas</option>
+							<option value="15-30">15:30 horas</option>
+						</select>
+						<label for="hourReservation">Hora</label>
+					</div>
+
+					<div class="form-element-group">
+						<select type="date" name="People" id="peopleReservation" placeholder="Selecciona las personas" required />
+							<option selected disabled hidden></option>
+							<option value="1">1 persona</option>
+							<option value="2">2 personas</option>
+							<option value="3">3 personas</option>
+							<option value="4">4 personas</option>
+							<option value="5">5 personas</option>
+							<option value="6">6 personas</option>
+							<option value="7">7 personas</option>
+							<option value="8">8 personas</option>
+						</select>
+						<label for="peopleReservation">Personas</label>
+					</div>
+				
+					<button class="effect-button-form">Reservar</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<div class="social-media">
+				<a href="https://www.facebook.com" title="Ir al perfil de facebook" target="_blank">
+					<img src="./img/social/facebook.png" alt="Facebook" />
+				</a>
+
+				<a href="https://www.twitter.com" title="Ir al perfil de twitter" target="_blank">
+					<img src="./img/social/twitter.png" alt="Twitter" />
+				</a>
+
+				<a href="https://www.instagram.com/profile" title="Ir al perfil de instagram" target="_blank">
+					<img src="./img/social/instagram.png" alt="Instagram" />
+				</a>
+
+				<a href="https://www.linkedin.com" title="linkedin-profile" target="_blank">
+					<img src="./img/social/linkedin.png" alt="Linkedin" />
+				</a>
+
+				<a href="./blog.html" title="Ir al blog" target="_blank">
+					<img src="./img/social/blog.png" alt="Blog" />
+				</a>
+			</div>
+
+			<p>Viking Burger &copy;</p>
+		</footer>
+	</body>
+</html>

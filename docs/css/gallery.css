@@ -1,0 +1,51 @@
+:root {
+	--filterAll: drop-shadow(2px 4px 6px black);
+}
+
+
+.gallery__shadow {
+    filter: drop-shadow(2px 4px 6px black);
+}
+.gallery__shadow:hover {
+    filter: drop-shadow(0px 0px 0px black);
+}
+
+
+.gallery__old-picture {
+	filter: var(--filterAll) sepia(30%) saturate(40%);
+}
+.gallery__old-picture:hover {
+	filter: sepia(0%) saturate(100%);
+}
+
+
+.gallery__laboratory {
+	filter: var(--filterAll) hue-rotate(148deg) saturate(40%);
+}
+.gallery__laboratory:hover {
+	filter: hue-rotate(0deg) saturate(100%);
+}
+
+
+.gallery__pink-flower {
+	filter: var(--filterAll) brightness(80%) hue-rotate(260deg);
+}
+.gallery__pink-flower:hover {
+	filter: brightness(100%) hue-rotate(0deg);
+}
+
+
+.gallery__sad-rain {
+	filter: var(--filterAll) grayscale(90%) hue-rotate(147deg);
+}
+.gallery__sad-rain:hover {
+	filter: grayscale(0%) hue-rotate(0deg);
+}
+
+
+.gallery__morning-white {
+    filter: var(--filterAll) brightness(90%) opacity(50%);
+}
+.gallery__morning-white:hover {
+	filter: brightness(100%) opacity(100%);
+}
