@@ -40,17 +40,18 @@ header {
 #burgerMount {
 	background-color: #000000;
 	width: 100vw;
-	height: 800px;
+	height: 1100px;
 	position: relative;
 }
 
 h1 {
 	font-family: 'Viking', cursive;
-	font-size: 8vw;
+	font-size: 4em;
 	line-height: 1em;
-	color: #fe8e46;
+	color: #ffffff;
 	text-align: center;
-	text-shadow: 3px 3px 1px #ffffff;
+	text-shadow: 3px 3px 1px #ff4807;
+	padding: 20px;
 }
 
 
